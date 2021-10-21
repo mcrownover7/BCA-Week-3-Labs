@@ -1,0 +1,96 @@
+body {
+  margin: 50px;
+  background-color: whitesmoke;
+}
+
+hr {
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  border-top: thick double #333;
+  color: #333;
+}
+
+header {
+  background-color: #003b59;
+  opacity: 80%;
+  padding: 25px 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h1 {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 5vw;
+}
+
+h2 {
+  font-size: 3vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 2vw;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+p {
+    font-size: 1.5vw;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row-reverse;  
+  border: 1px dotted #000;
+}
+
+.main {
+  display: flex;
+  width: 40%;
+  height: 100%;
+  padding: 0px 10px;
+  align-self: center;
+}
+
+.articleOne {
+  display: flex;
+  flex-direction: column;
+}
+
+.articles {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 0px 10px;
+}
+
+.articleTwo {
+  display: flex;
+  padding: 10px 0px;
+}
+
+.articleThree {
+  display: flex;
+  padding: 10px 0px;
+}
+
+.titleAndText {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+img {
+  object-fit: contain;
+  width: 40%;
+  height: auto;
+  align-self: center;
+  flex: 0 0 auto;
+}
+
+footer {
+  text-align: center;
+}

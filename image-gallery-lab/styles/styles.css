@@ -1,0 +1,56 @@
+body {
+  margin: 50px;
+  background-color: whitesmoke;
+}
+ 
+hr {
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  border-top: thick double #333;
+  color: #333;
+}
+
+header {
+  background-color: #003b59;
+  opacity: 80%;
+  padding: 25px 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h1 {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 5vw;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5vw;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.25vw;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.container {
+  display: grid;
+  /* before using gap, I was using height and width 95% on the img */
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
